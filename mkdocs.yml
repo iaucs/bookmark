@@ -1,0 +1,39 @@
+site_name: بوک‌مارک
+repo_url: https://github.com/iaucs/bookmark
+repo_name: iaucs/bookmark
+theme:
+  name: material
+  language: fa 
+  direction: rtl
+  font:
+    text: Vazirmatn
+  palette:
+    - scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: تغییر به حالت تیره
+    - scheme: slate
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: تغییر به حالت روشن
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://jozveiau.t.me/
+    - icon: fontawesome/brands/whatsapp
+      link: https://jozveiau.t.me/
+    - icon: fontawesome/solid/at
+      link: mailto:me@goudarzjafari.com
+copyright: کپی رایت &copy; ۲۰۲۲ - انجمن علمی کامپیوتر <a href="https://shiraz.iau.ir/" target="_blank">دانشگاه آزاد شیراز</a> و <a href="https://github.com/iaucs/bookmark/graphs/contributors" target="_blank">مشارکت‌کنندگان</a>
+plugins:
+  - search
